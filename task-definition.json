@@ -3,6 +3,9 @@
     "executionRoleArn": "arn:aws:iam::603825719481:role/ecsTaskExecutionRole",
     "containerDefinitions": [
       {
+        
+        "name": "jil_vlad_container",
+        "image": "603825719481.dkr.ecr.eu-west-1.amazonaws.com/infra_project_jil_vlad:prod-7e70b93a8043e9160b619cc2584e7058d8eed83b",
         "dnsSearchDomains": null,
         "environmentFiles": null,
         "logConfiguration": {
@@ -37,7 +40,6 @@
         "memoryReservation": null,
         "volumesFrom": [],
         "stopTimeout": null,
-        "image": "603825719481.dkr.ecr.eu-west-1.amazonaws.com/infra_project_jil_vlad:prod-7e70b93a8043e9160b619cc2584e7058d8eed83b",
         "startTimeout": null,
         "firelensConfiguration": null,
         "dependsOn": null,
@@ -53,8 +55,7 @@
         "readonlyRootFilesystem": null,
         "dockerLabels": null,
         "systemControls": null,
-        "privileged": null,
-        "name": "jil_vlad_container"
+        "privileged": null
       }
     ],
     "placementConstraints": [],
