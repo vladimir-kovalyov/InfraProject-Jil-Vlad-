@@ -28,4 +28,4 @@ jobs:
         secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         region: eu-west-1
         local-image: my-image
-        image: 603825719481.dkr.ecr.eu-west-1.amazonaws.com/infra_project_jil_vlad:dev-${{ github.sha }}
+        image: infra_project_jil_vlad:dev-${{ github.sha }}
