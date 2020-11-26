@@ -8,6 +8,6 @@ RUN npm install --only=prod
 
 COPY . .
 
-EXPOSE 3000
+EXPOSE 80
 
 CMD [ "node", "bin/www" ]
