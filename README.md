@@ -30,4 +30,4 @@ The objective of this project is to work in pairs and provision cloud infrastruc
 
 1. Introduce autoscaling and demonstrate this working by using a performance testing tool such as Apache Bench or JMeter.
 
-2. Create two versions of your infrastructure, a development environment and a production environment.
+2. Create two versions of your infrastructure, a development environment and a production environment. -- 
