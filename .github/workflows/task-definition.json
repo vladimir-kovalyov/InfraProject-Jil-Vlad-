@@ -54,7 +54,7 @@
       "dockerLabels": null,
       "systemControls": null,
       "privileged": null,
-      "name": "jil_vlad_container"
+      "name": "worker"
     }
   ],
   "placementConstraints": [],
